@@ -6,7 +6,8 @@
     "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "debug": "functions deploy api --trigger-http --timeout 600s && functions inspect api --port 9229"
   },
   "engines": {
     "node": "10"

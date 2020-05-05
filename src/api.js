@@ -2,7 +2,7 @@ import { pipe, map } from "rxjs/operators";
 import { ajax } from "rxjs/ajax";
 
 const BASE_URL =
-  "https://us-central1-redux-observable-todos.cloudfunctions.net/api";
+  "http://localhost:5001/jpv-t7/us-central1/api";
 
 export const getUser = () => ajax.getJSON(`${BASE_URL}/user`);
 export const getTodos = () => ajax.getJSON(`${BASE_URL}/todo`);

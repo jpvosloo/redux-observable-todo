@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Redux Observable Todo",
-    "slug": "redux-observable-todo",
+    "slug": "redux-todo",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -25,7 +25,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "Sample app for blog post \"Building reactive apps with Redux and Redux-Observable\"\nSource Code: https://github.com/sourabhv/redux-observable-todo",
-    "githubUrl": "https://github.com/sourabhv/redux-observable-todo"
+    "description": "Sample app for Redux.",
+    "githubUrl": "https://github.com/jpvosloo/redux-todo"
   }
 }

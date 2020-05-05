@@ -1,0 +1,25 @@
+### To test, run
+### start firebase emulators:start
+
+### Test User API
+http://localhost:5001/jpv-t7/us-central1/api/user
+
+### Write to FireStore 1
+POST http://localhost:5001/jpv-t7/us-central1/api/todo HTTP/1.1
+content-type: application/json
+
+{
+    "text": "tttttt"
+}
+
+### Write to FireStore 2
+POST http://localhost:5001/jpv-t7/us-central1/api/todo HTTP/1.1
+content-type: application/json
+
+{
+    "text": "XXXXXX",
+    "extra":"EEEEE"
+}
+
+### Read from Firestore
+http://localhost:5001/jpv-t7/us-central1/api/todo
