@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Redux Observable Todo",
-    "slug": "redux-todo",
+    "name": "JPV Redux Todo",
+    "slug": "jpv-redux-todo",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [

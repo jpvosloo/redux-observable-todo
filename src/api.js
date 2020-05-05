@@ -1,8 +1,9 @@
 import { pipe, map } from "rxjs/operators";
 import { ajax } from "rxjs/ajax";
 
-const BASE_URL =
-  "http://localhost:5001/jpv-t7/us-central1/api";
+//const BASE_URL ="http://localhost:5001/jpv-t7/us-central1/api";
+const BASE_URL = "https://us-central1-jpv-t7.cloudfunctions.net/api";
+
 
 export const getUser = () => ajax.getJSON(`${BASE_URL}/user`);
 export const getTodos = () => ajax.getJSON(`${BASE_URL}/todo`);
